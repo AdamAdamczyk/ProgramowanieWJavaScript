@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+            <audio src="./sounds/clap.wav" controls id="s1"></audio>
+            <audio src="./sounds/hihat.wav" controls id="s2"></audio>
+            <audio src="./sounds/boom.wav" controls id="s3"></audio>
+            <audio src="./sounds/kick.wav" controls id="s4"></audio>
+            <audio src="./sounds/openhat.wav" controls id="s5"></audio>
+            <audio src="./sounds/ride.wav" controls id="s6"></audio>
+            <audio src="./sounds/snare.wav" controls id="s7"></audio>
+            <audio src="./sounds/tink.wav" controls id="s8"></audio>
+            <audio src="./sounds/tom.wav" controls id="s9"></audio>
+            
+        <div id="channels">
+            <div>
+                <input type="checkbox" onClick = "switchState(1)" id="ch1" ><p1>Channel 1:</p1>
+                <button onClick ="startRecord(1)" >Record</button>
+                <button onClick ="playRecord(1)">Play</button>
+            </div>
+
+            <div>
+                <input type="checkbox" onClick = "switchState(2)" id="ch2" ><p1>Channel 2:</p1>
+                <button onClick ="startRecord(2)" >Record</button>
+                <button onClick ="playRecord(2)">Play</button>
+            </div>
+            <div>
+                <input type="checkbox" onClick = "switchState(3)" id="ch3" ><p1>Channel 3:</p1>
+                <button onClick ="startRecord(3)" >Record</button>
+                <button onClick ="playRecord(3)">Play</button>
+            </div>
+
+            <div>
+                <input type="checkbox" onClick = "switchState(4)" id="ch4" ><p1>Channel 4:</p1>
+                <button onClick ="startRecord(4)" >Record</button>
+                <button onClick ="playRecord(4)">Play</button>
+            </div>
+            <div>
+                <p2>Play All Records</p2>
+                <button onClick ="playRecord(5)" class="btnPlayAll">Play</button>
+            </div>
+        </div>
+            
+        <div id="box2">
+            <button id="btn1" class="key">A - Clap</button>
+            <button id="btn2" class="key">S - Boom</button>
+            <button id="btn3" class="key">D - Hithat</button>
+            <button id="btn4" class="key">F - Kick</button>
+            <button id="btn5" class="key">G - Openhat</button>
+            <button id="btn6" class="key">H - Ride</button>
+            <button id="btn7" class="key">J - Snare</button>
+            <button id="btn8" class="key">K - Tink</button>
+            <button id="btn9" class="key">L - Tom</button>
+        </div>
+<script src="drumkit.js"></script>
+</body>
+</html>
