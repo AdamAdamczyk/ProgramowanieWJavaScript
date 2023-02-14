@@ -1,0 +1,70 @@
+p {
+	margin-top: 5px;
+	text-align: right;
+}
+.white {
+	background-color: white;
+	border: 1px solid black;
+}
+.pink {
+	background-color: pink;
+	border: 1px solid black;
+}
+.yellow {
+	background-color: lightyellow;
+	border: 1px solid black;
+}
+.green {
+	background-color: lightgreen;
+	border: 1px solid black;
+}
+.blue {
+	background-color: lightblue;
+	border: 1px solid black;
+}
+
+#note {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+#note #title {
+	height: 40px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+.title {
+	height: 40px;
+	padding: 5px;
+	text-align: center;
+}
+#note textarea {
+	height: 160px;
+	padding: 20px;
+	border-radius: 5px;
+}
+#note button {
+	border: none;
+	font-size: 20px;
+	background: transparent;
+	cursor: pointer;
+	float: right;
+	margin-top: 20px;
+}
+#note textarea {
+	resize: none;
+}
+#colors input {
+	margin-top: 20px;
+	margin-left: 5px;
+}
+#checkbox {
+	display: inline-block;
+	width: 150px;
+}

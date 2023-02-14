@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab2</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div id="note">
+    <p>Przypnij:<input type="checkbox" name="pinned" id="pin"></p>
+    <input type="text" id="title" placeholder="Tytuł">
+    <textarea id="content" value="test" placeholder="Treść"></textarea>
+    <input type="hidden" id="id">
+    <div>
+      <div id="colors">Kolor Notatki:
+        <span class="pink">Różowy<input type="radio" name="colors" value="pink"></span>
+        <span class="white">Biały<input type="radio" name="colors" value="white" checked="checked"></span>
+        <span class="yellow">Żółty<input type="radio" name="colors" value="lightyellow"></span>
+        <span class="green">Zielony<input type="radio" name="colors" value="lightgreen"></span>
+        <span class="blue">Niebieski<input type="radio" name="colors" value="lightblue"></span>
+        <button id="save">Zapisz</button>
+      </div>
+
+    </div>
+  </div>
+  <div id="wall">
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
