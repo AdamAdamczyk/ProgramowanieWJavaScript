@@ -1,0 +1,22 @@
+* {
+  margin: 15px;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center
+}
+
+body {
+  background: #5583ee;
+}
+
+ol{
+	border-style:outset;
+	border-color: black;
+}
+li{
+  border-style:outset;
+}
+
+button {
+	cursor: pointer;
+}
